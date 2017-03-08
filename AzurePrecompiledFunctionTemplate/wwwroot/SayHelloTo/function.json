@@ -13,6 +13,6 @@
     }
   ],
   "scriptFile": "..\\Shared\\AzurePrecompiledFunctionTemplate.dll",
-  "entryPoint": "AzurePrecompiledFunctionTemplate.HttpTrigger.SayHelloToJohnDoe",
+  "entryPoint": "AzurePrecompiledFunctionTemplate.HttpTrigger.SayHelloTo",
   "disabled": false
 }
