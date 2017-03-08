@@ -1,0 +1,18 @@
+﻿{
+  "bindings": [
+    {
+      "authLevel": "function",
+      "direction": "in",
+      "name": "req",
+      "type": "httpTrigger"
+    },
+    {
+      "direction": "out",
+      "name": "$return",
+      "type": "http"
+    }
+  ],
+  "scriptFile": "..\\Shared\\AzurePrecompiledFunctionTemplate.dll",
+  "entryPoint": "AzurePrecompiledFunctionTemplate.HttpTrigger.Run",
+  "disabled": false
+}
