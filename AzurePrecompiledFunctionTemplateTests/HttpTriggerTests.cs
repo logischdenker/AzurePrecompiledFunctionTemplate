@@ -11,9 +11,9 @@ namespace AzurePrecompiledFunctionTemplate.Tests
         public async Task SayHelloToJohnDoe_ReturnsHelloToJohnDoe()
         {
             //arrange
-            var person = new { Name = "John Doe" };
+            var someMeaninglessPayload = new { ItDoesntMatter = "what is in the payload" };
 
-            var request = CreateHttpRequestWith(person);
+            var request = CreateHttpRequestWith(someMeaninglessPayload);
             var traceWriter = GetTestTraceWriter();
 
             //act
