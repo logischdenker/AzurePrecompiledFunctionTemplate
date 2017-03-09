@@ -92,9 +92,9 @@
     </None>
     <None Include="wwwroot\host.json" />
     <None Include="wwwroot\SayHelloToJohnDoe\function.json" />
+    <None Include="wwwroot\SayHelloTo\function.json" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="wwwroot\SayHelloTo\" />
     <Folder Include="wwwroot\Shared\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
