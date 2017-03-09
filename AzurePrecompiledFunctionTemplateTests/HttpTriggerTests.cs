@@ -17,7 +17,24 @@ namespace AzurePrecompiledFunctionTemplate.Tests
             var traceWriter = GetTestTraceWriter();
 
             //act
-            var response = await HttpTrigger.SayHelloToJohnDoe(request, traceWriter);
+            var response = HttpTrigger.SayHelloToJohnDoe(request, traceWriter);
+            var returnMessage = await response.Content.ReadAsStringAsync();
+
+            //assert
+            Assert.AreEqual("Hello John Doe", returnMessage);
+        }
+
+        [TestMethod()]
+        public async Task SayHelloTo_ReturnsHelloToJohnDoe()
+        {
+            //arrange
+            var person = new { Name = "John Doe" };
+
+            var request = CreateHttpRequestWith(person);
+            var traceWriter = GetTestTraceWriter();
+
+            //act
+            var response = await HttpTrigger.SayHelloTo(request, traceWriter);
             var returnMessage = await response.Content.ReadAsStringAsync();
 
             //assert
