@@ -25,12 +25,11 @@ namespace AzurePrecompiledFunctionTemplate.Tests
         }
 
         [TestMethod()]
-        public async Task SayHelloTo_ReturnsHelloToJohnDoe()
+        public async Task SayHelloTo_World_ReturnsHelloWorld()
         {
             //arrange
-            var person = new { Name = "John Doe" };
-
-            var request = CreateHttpRequestWith(person);
+            var payload = new { Name = "World" };
+            var request = CreateHttpRequestWith(payload);
             var traceWriter = GetTestTraceWriter();
 
             //act
@@ -38,7 +37,7 @@ namespace AzurePrecompiledFunctionTemplate.Tests
             var returnMessage = await response.Content.ReadAsStringAsync();
 
             //assert
-            Assert.AreEqual("Hello John Doe", returnMessage);
+            Assert.AreEqual("Hello World", returnMessage);
         }
     }
 }
