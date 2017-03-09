@@ -92,7 +92,9 @@
     </None>
     <None Include="wwwroot\host.json" />
     <None Include="wwwroot\SayHelloToJohnDoe\function.json" />
+    <None Include="wwwroot\SayHelloToJohnDoe\run.csx" />
     <None Include="wwwroot\SayHelloTo\function.json" />
+    <None Include="wwwroot\SayHelloTo\run.csx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\Shared\" />
