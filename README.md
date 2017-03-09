@@ -7,7 +7,7 @@ At the time of writing Azure functions do not have unit testing possibilities an
 With precompiled functions you can benefit from all the productivity stuff that is available within your Visual Studio IDE (including unit testing and Intellisense).
 
 ## Template contents
-The Visual Studio solution contains two projects. First there is the "AzurePrecompiledFunctionTemplate.csproj" with the actual source code and there is also a MSTest V2 "AzurePrecompiledFunctionTemplateTest.csproj" test project for you to get started. Read https://github.com/logischdenker/AzurePrecompiledFunctionTemplate/blob/master/AzurePrecompiledFunctionTemplate/Overview.md to get a better understanding of the project structure.
+The Visual Studio solution contains two projects. First there is the "AzurePrecompiledFunctionTemplate.csproj" with the actual source code and there is also a MSTest V2 "AzurePrecompiledFunctionTemplateTest.csproj" test project for you to get started. Read the [overview](https://github.com/logischdenker/AzurePrecompiledFunctionTemplate/blob/master/AzurePrecompiledFunctionTemplate/Overview.md) to get a better understanding of the project structure.
 
 ## How to get started
 1. Create a new Azure Function App within the Azure portal
