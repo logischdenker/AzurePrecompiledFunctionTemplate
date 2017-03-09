@@ -8,7 +8,7 @@ namespace AzurePrecompiledFunctionTemplate
 {
     public class HttpTrigger
     {
-        public static async Task<HttpResponseMessage> SayHelloToJohnDoe(HttpRequestMessage req, TraceWriter log)
+        public static HttpResponseMessage SayHelloToJohnDoe(HttpRequestMessage req, TraceWriter log)
         {
             log.Info("SayHelloToJohnDoe HTTP trigger function processed a request.");
 
