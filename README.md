@@ -12,7 +12,7 @@ With precompiled functions you can benefit from all the productivity stuff that 
 The Visual Studio solution contains two projects. First there is the "AzurePrecompiledFunctionTemplate.csproj" with the actual source code and there is also a MSTest V2 "AzurePrecompiledFunctionTemplateTest.csproj" test project for you to get started.
 
 ## How to get started
-1) Create a new Azure Function App within the Azure portal
-2) Upload the needed files to your Azure Function App. There are many ways to do this -> here is one
-3) Test if everything works via the Azure portal
-4) Start coding you own precompiled function...
+1. Create a new Azure Function App within the Azure portal
+2. Upload the needed files to your Azure Function App. There are many ways to do this -> here is one
+3. Test if everything works via the Azure portal
+4. Start coding you own precompiled function...
