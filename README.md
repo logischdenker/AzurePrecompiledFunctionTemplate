@@ -21,6 +21,6 @@ The Visual Studio solution contains two projects. First there is the "AzurePreco
 Clone the repository and work with it. If you find it helpful and want to contribute to make this template solution even more helpful for others, please feel free to create pull requests. I'd be more than happy to get you involved!
 
 ## Wanna see some action?
-Call the `SayHelloToJohnDoe` Azure function right [here](https://precompiled-function-template.azurewebsites.net/api/SayHelloToJohnDoe?code=5QaGLQ7stda7DggzUD7Xrmad6vDdD9/FiUfLia6k2rmicXcA2XXJbQ==)
+Call the `SayHelloToJohnDoe` Azure function right [here](https://genericde-function-app.azurewebsites.net/api/SayHelloToJohnDoe?code=CJXeIPaRQIcRFtVBykYAa4cRgrefUuLE/JUAO2n47j44QV3/MD9EAQ==)
 
 This repository is set up with a continuous integration process within Visual Studio Team Services. Each commit will trigger a build and will finally deploy the updated function.

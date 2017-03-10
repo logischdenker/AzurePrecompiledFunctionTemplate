@@ -4,3 +4,14 @@ The folder structure of the solution is based on the folder structure of the off
 The `wwwroot` folder is the place where all the magic happens. Place each function within a separate sub folder, where the sub folder name will become the function name. Each folder must contain the `function.json` configuration file an a place holder `run.csx` file. We do not need to write code in the `run.csx` file because we are going to write our code within real c# classes.
 
 The template contains an example for an `HttpTrigger` function. Feel free to extend your personal function at will. The only thing you have to take care of is that your method signature must match the required method signature of the function as it is configured within the Azure portal. 
+
+## Editing the "function.json"
+Once you start renaming your solution to match your likings, make sure to apply the new naming to ´function.json`also.
+```JSON
+{
+  "scriptFile": "..\\Shared\\NAME_OF_YOUR_DLL_GOES_HERE.dll",
+  "entryPoint": "NAME_OF_YOUR_DLL_GOES_HERE.HttpTrigger.SayHelloTo",
+  
+  //rest of the json definition per function goes here...
+}
+```
