@@ -1,6 +1,8 @@
 # AzurePrecompiledFunctionTemplate
 This repository contains a Visual Studio 2017 solution (c#) that can be used as a template to get you started with Microsoft Azure precompiled functions.
 
+The solution is intendet to be used as starting point for more complex and complete function apps. It may seem like overkill for just a single function within a function app but it's real benefit comes up with function apps that contain 10, 20 or more functions...
+
 ## Why use precompiled functions?
 At the time of writing (March 2017) Azure functions do not have unit testing possibilities and support for Intellisense as we love it within Visual Studio is lacking also. 
 
