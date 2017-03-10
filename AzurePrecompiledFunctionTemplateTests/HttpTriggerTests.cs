@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
-using AzurePrecompiledFunctionTemplateTests;
+using AzurePrecompiledFunctionTemplate;
 
-namespace AzurePrecompiledFunctionTemplate.Tests
+namespace AzurePrecompiledFunctionTemplateTests
 {
     [TestClass()]
     public class HttpTriggerTests: TestBase
