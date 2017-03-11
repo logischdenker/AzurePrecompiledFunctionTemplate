@@ -17,6 +17,8 @@ The Visual Studio solution contains two projects. First there is the "AzurePreco
 3. Test if everything works via the Azure portal
 4. Start coding your own precompiled function...
 
+A note on automated triggers: They will not run continuously unless you make sure that your function app is "always on"! [Read the documentation about this issue.](https://github.com/Azure/Azure-Functions/wiki/Enable-Always-On-when-running-on-dedicated-App-Service-Plan)
+
 ## How to contribute
 Clone the repository and work with it. If you find it helpful and want to contribute to make this template solution even more helpful for others, please feel free to create pull requests. I'd be more than happy to get you involved!
 
