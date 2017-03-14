@@ -12,3 +12,5 @@ If you do not have configured your FTP credentials yet you can do it here
 3. Finally upload the content of the `wwwroot` folder to `site/wwwroot` of your Azure function app service via an FTP client software of your choice.
 
 Your function app should be up and running after the FTP upload.
+
+At the time of writing there is an open issue regarding syncing triggers after an FTP deployment. Be sure to read https://github.com/Azure/Azure-Functions/issues/210 and follow the steps mentioned there, if you have problems in your deployment.
